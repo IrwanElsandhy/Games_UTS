@@ -1,0 +1,501 @@
+{
+	"info": {
+		"_postman_id": "01cd194f-ae22-460a-a3f3-80f2206a5072",
+		"name": "UTS_Games",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39425771"
+	},
+	"item": [
+		{
+			"name": "http://localhost/gamess/gamess.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/gamess/gamess.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamess",
+						"gamess.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/gamess/gamess.php",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/gamess/gamess.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"gamess",
+								"gamess.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 01 Nov 2024 03:38:52 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.1.17"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.17"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, genreization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "392"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Mobile Legends\",\n        \"genre\": \"Moba\",\n        \"price\": \"10000\",\n        \"rating\": 8\n    },\n    {\n        \"id\": 2,\n        \"title\": \"PUBG Mobile\",\n        \"genre\": \"Battle Royal\",\n        \"price\": \"20000\",\n        \"rating\": 9\n    },\n    {\n        \"id\": 3,\n        \"title\": \"E-Football\",\n        \"genre\": \"Olahraga\",\n        \"price\": \"15000\",\n        \"rating\": 8\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Clash of Clans\",\n        \"genre\": \"Strategi\",\n        \"price\": \"5000\",\n        \"rating\": 7\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Minecraft\",\n        \"genre\": \"Petualangan\",\n        \"price\": \"100000\",\n        \"rating\": 9\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/gamess/gamess.php/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/gamess/gamess.php/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamess",
+						"gamess.php",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/gamess/gamess.php/2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/gamess/gamess.php/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"gamess",
+								"gamess.php",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 01 Nov 2024 03:42:35 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.1.17"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.17"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, genreization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "80"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2,\n    \"title\": \"PUBG Mobile\",\n    \"genre\": \"Battle Royal\",\n    \"price\": \"20000\",\n    \"rating\": 9\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/gamess/gamess.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Dota 2\",\r\n    \"genre\": \"Moba\",\r\n    \"price\": \"50000\",\r\n    \"rating\": 6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/gamess/gamess.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamess",
+						"gamess.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/gamess/gamess.php",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Dota 2\",\r\n    \"genre\": \"Moba\",\r\n    \"price\": \"50000\",\r\n    \"rating\": 6\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/gamess/gamess.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"gamess",
+								"gamess.php"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 01 Nov 2024 03:46:33 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.1.17"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.17"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, genreization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "36"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Games created\",\n    \"id\": \"6\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/gamess/gamess.php/3",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Dragon City\",\r\n    \"genre\": \"Laga\",\r\n    \"price\": \"7000\",\r\n    \"rating\": 7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/gamess/gamess.php/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamess",
+						"gamess.php",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/gamess/gamess.php/3",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Dragon City\",\r\n    \"genre\": \"Laga\",\r\n    \"price\": \"7000\",\r\n    \"rating\": 7\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/gamess/gamess.php/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"gamess",
+								"gamess.php",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 01 Nov 2024 03:55:07 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.1.17"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.17"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, genreization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "27"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Games updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/gamess/gamess.php/4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/gamess/gamess.php/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"gamess",
+						"gamess.php",
+						"4"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/gamess/gamess.php/4",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/gamess/gamess.php/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"gamess",
+								"gamess.php",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 01 Nov 2024 03:56:22 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.1.17"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.17"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, genreization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "27"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"games deleted\"\n}"
+				}
+			]
+		}
+	]
+}
